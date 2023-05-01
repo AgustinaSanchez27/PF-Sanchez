@@ -11,13 +11,12 @@
 </head>
 <body>
     <header>
-        <a href="../index.html"></a>
-    
-        <img src="../img/logotipo2.png" class="imglogo" alt="logo puredesire">
+        
         
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
-             
+              <a class="navbar-brand" href="../index.html">
+                <img src="../img/logotipo2.png" alt="logotipo2"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -48,28 +47,32 @@
     </a>
     <section>
        
-         <form>
-       
-               <label for="Nombre">Nombre y apellido</label>
-              <input type="text" id="Nombre" placeholder="ingresa tu nombre completo" required> 
-
-             <label for="correo">Correo electronico</label>
-            <input type="email" id="correo" placeholder="Ingrese Email"
-
-             <label for="telefono"> numero de telefono</label>
-            <input type="tel" id="telefono" placeholder="Ingrese numero de telefono">
-
-             <label for="dni">dni</label>
-             <input type="number"  id="dni" placeholder="Ingrese DNI">
-
-            <label for="mensaje">mensaje</label>
-             <textarea  id="mensaje" cols="30" rows="10"></textarea> 
-
-            <input type="submit" value="Enviar formulario">
-            <input type="reset" value="Limpiar el formulario">
-
-       
-        </form>
+      <form class="formulario">
+        <div class="mb-3">
+          <label for="nombre y apellido" class="form-label">Nombre y Apellido</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Registrarme</label>
+        </div>
+        <button type="submit" class="btn btn-primary" class="botonenviar">Enviar</button>
+      </form>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+    
+    <footer>
+      <p>SITIO WEB CREADO SIN FINES DE LUCRO. </p>
+
+    </footer>
 </body>
 </html>

@@ -29,15 +29,16 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
-nav ul {
+nav ul a:hover {
     display: flex;
     gap: 20px;
-    font-size: 30px;
+    font-size: 35px;
     color: #b58c66;
+    background-color: #694422;
 }
-
 .img-inicio{
     
     margin: 0px;
@@ -89,23 +90,13 @@ footer{
 }
  
 
-
-
-@media (min-widht: 768px) { 
-        
+.productos { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
 }
-
-
-      
-@media (min-widht:1500px) {
-    #carousel-control  {
-        margin : 0 auto;
-        width: 50%;
-    }
-}
-
-
-
 
 
 .card-body {
@@ -119,14 +110,51 @@ footer{
     max-height: 300px;
 }
 
-.card {
-    justify-content: center;
-   max-block-size: 0%;
-}
 
 .whatsapp {
     position: fixed;
-    bottom: 15px;
-    right: 25px;
-    width: 60px;
+    bottom: 10px;
+    right: 15px;
+    width: 45px;
+}
+
+.img-inicio { 
+    display: flex;
+    justify-content: center;
+    gap: 15px
+}
+
+.frame {
+    display: flex;
+
+}
+
+footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#694422;
+}
+
+.formulario { 
+    padding: 50px;
+
+}
+
+@media (min-widht: 768px) { 
+    .productos { 
+        display: grid;
+        grid-template-columns: 4, 1fr;
+        gap : 20px;
+
+    }
+        
+}
+/*COMPLETAR LA MEDIA QUERY*/
+
+      
+@media (min-widht:992) {
+  .productos { 
+    grid-template-columns: repeat(4, 1fr) ;
+  }
 }
