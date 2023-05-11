@@ -1,0 +1,26 @@
+@import 'variables';
+@import 'mixins';
+
+.formulario { 
+    padding: 50px;
+
+}
+
+
+@media (min-widht: 768px) { 
+    .productos { 
+        display: grid;
+        grid-template-columns: 4, 1fr;
+        gap : 20px;
+
+    }
+        
+}
+
+
+      
+@media (min-widht:992) {
+  .productos { 
+    grid-template-columns: repeat(4, 1fr) ;
+  }
+}

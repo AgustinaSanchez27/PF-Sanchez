@@ -1,0 +1,46 @@
+
+
+
+
+html{
+    font-size:  62,5%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #b58c66;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+nav ul a:hover {
+    display: flex;
+    gap: 20px;
+    font-size: 35px;
+    color: #b58c66;
+    background-color: #694422;
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    width: 45px;
+}
+
+.frame {
+    display: flex;
+
+}
+

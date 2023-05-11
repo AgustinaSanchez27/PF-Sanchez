@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'mixins';
+
+@keyframes blink {
+    0%{
+        filter:drop-shadow(1px 1px 1px red);
+    }
+
+    50%{
+        filter:drop-shadow(3px 3px 3px white);
+    }
+
+    100%{
+        filter:drop-shadow(1px 1px 1px red);
+    }
+    
+}
+
+.descuento-animado {
+    color: red;    
+    font-size: 25px;    
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    height: 90px;
+    animation: blink 2s ease-in-out infinite;
+    animation-fill-mode: forwards;    
+}
