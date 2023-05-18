@@ -2,25 +2,23 @@
 @import 'mixins';
 
 .formulario { 
-    padding: 50px;
+     display: flex;
+     flex-direction: column ;
+     padding: 60px;
+     font-size: 19px;
+     align-items: flex ;
+     gap: 13px;
+     color: #694422;
+    
+}
+
+
+.texto-formulario { 
+       font-size: 25px bold;
+       text-align: center;
+       align-items: center;
+       color: #694422;
 
 }
 
 
-@media (min-widht: 768px) { 
-    .productos { 
-        display: grid;
-        grid-template-columns: 4, 1fr;
-        gap : 20px;
-
-    }
-        
-}
-
-
-      
-@media (min-widht:992) {
-  .productos { 
-    grid-template-columns: repeat(4, 1fr) ;
-  }
-}
