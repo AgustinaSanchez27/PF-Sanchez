@@ -2,11 +2,11 @@
 @import 'mixins';
 
 .formulario { 
+     width: auto;
      display: flex;
      flex-direction: column ;
      padding: 60px;
      font-size: 19px;
-     align-items: flex ;
      gap: 13px;
      color: #694422;
     

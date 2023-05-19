@@ -1,12 +1,15 @@
 @charset "UTF-8";
 /*Tamaños de letra*/
-*{overflow-x: hidden;}
 header {
   padding: 100px;
   flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+* {
+  overflow-x: hidden;
 }
 
 * {
@@ -66,9 +69,20 @@ h2 {
 
 h3 {
   text-align: center;
-  font-size: 20px;
+  font-size: 15px bold;
+  color: #694422;
+}
+ 
+h4 { 
+  text-align: center;
+  font-size: 27px bold;
+  color: #694422;
+  align-items: center;
 }
 
+.img-nosotros { 
+  align-items: center;
+}
 a {
   display: block;
   color: black;
@@ -144,11 +158,11 @@ header {
 }
 
 .formulario {
+  width: auto;
   display: flex;
   flex-direction: column;
   padding: 60px;
   font-size: 19px;
-  align-items: flex;
   gap: 13px;
   color: #694422;
 }
@@ -192,7 +206,10 @@ header {
   align-items: center;
   gap: 30px;
   margin: 0 auto;
+  font-size: 15px;
 }
+
+
 
 @media (min-widht: 768px) {
   .productos {
