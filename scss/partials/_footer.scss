@@ -1,9 +1,15 @@
 @import 'variables';
 @import 'mixins';
 
-footer {
+
+
+*{overflow-x: hidden;}
+footer { 
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color:#694422;
+    font-size: 15px;
 }
+
+

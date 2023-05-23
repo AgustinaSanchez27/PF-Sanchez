@@ -1,6 +1,12 @@
-@import 'partials/generales';
-@import 'partials/header';
-@import 'partials/footer';
-@import 'partials/contactos';
-@import 'partials/productos';
-@import 'partials/promociones';
+@import  "../scss/partials/contactos";
+@import "../scss/partials/generales" ;
+@import "../scss/partials/mixins" ;
+@import "../scss/partials/productos";
+@import "../scss/partials/promociones" ;
+@import "../scss/partials/footer";
+@import "../scss/partials/header";
+@import "../scss/partials/inicio";
+@import "../scss/partials/variables";
+@import  "../scss/partials/sobrenosotros";
+@import "../scss/partials/inicio";
+@import "../scss/partials/iframe";

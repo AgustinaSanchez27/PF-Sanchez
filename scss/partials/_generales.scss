@@ -44,8 +44,9 @@ nav ul a:hover {
     color: #694422
 }
 
-.frame {
+iframe {
     display: flex;
+    justify-content: center;
 
 }
 
@@ -86,6 +87,12 @@ footer {
     bottom: 10px;
     right: 15px;
     width: 45px;
+} 
+
+.iframe {
+    display: center;
+    justify-content: center;
+
 }
 
 @media (min-widht: 768px) {
